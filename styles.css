@@ -129,7 +129,11 @@ gap:15px}
         font-weight: 500;
         line-height: 30px; /* 150% */
     margin-bottom: 100px;}   
+.feature-img-container div>img:hover{border: 5px solid #F948B2;
+    border-radius: 18px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
 
+}
 
     /* anniversary section style */
     .ani-container{display:flex;
